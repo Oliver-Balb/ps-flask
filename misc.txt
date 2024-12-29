@@ -1,0 +1,8 @@
+
+*** Start Flask server
+flask --app flashcards.py --debug run
+
+*** Show URL maps
+python 
+import flashcards
+flashcards.app.url_map
