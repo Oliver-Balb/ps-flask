@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <titleFlash Card</title>
+    <title>Flash Card</title>
 </head>
 <body>
     <h1>Flash Card</h1>
@@ -14,18 +14,22 @@
     <p>
         <button>
         {% if index > 0 %}
-            <a href="{{ url_for('card_view', index=index-1, max_index=max_index) }}"> Previous Card </a> 
+            <a href="{{ url_for('card_view', index=index-1) }}">Previous Card</a> 
         {% else %}    
-            <a href="{{ url_for('card_view', index=max_index, max_index=max_index) }}"> Last Card </a> 
+            <a href="{{ url_for('card_view', index=max_index) }}">Last Card</a> 
         {% endif %}    
         </button> 
             &nbsp; | &nbsp; 
         <button>
         {% if index < max_index %}    
-            <a href="{{ url_for('card_view', index=index+1, max_index=max_index) }}"> Next Card </a>
+            <a href="{{ url_for('card_view', index=index+1) }}"> Next Card</a>
         {% else %}
-            <a href="{{ url_for('card_view', index=0, max_index=max_index) }}"> First Card </a>              
+            <a href="{{ url_for('card_view', index=0) }}">First Card</a>              
         {% endif %}  
+        </button>
+        &nbsp; | &nbsp; 
+        <button>
+            <a href="{{ url_for('add_card', index=index+1) }}">Add Card</a>
         </button>
         &nbsp; | &nbsp; 
             <a href="{{ url_for('welcome') }}"> Home </a>

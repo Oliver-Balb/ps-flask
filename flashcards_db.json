@@ -1,18 +1,1 @@
-[
-  {
-    "question": "Hello (formal)",
-    "answer": "Hola, ¿cómo está?"
-  },
-  {
-    "question": "Goodbye (formal)",
-    "answer": "Adiós"
-  },
-  {
-    "question": "Hello (informal)",
-    "answer": "Hola, tío"
-  },
-  {
-    "question": "Goodbye (informal)",
-    "answer": "Cuídate."
-  }
-]
+[{"question": "Hello (formal)", "answer": "Hola, \u00bfc\u00f3mo est\u00e1?"}, {"question": "Goodbye (formal)", "answer": "Adi\u00f3s"}, {"question": "Hello (informal)", "answer": "Hola, t\u00edo"}, {"question": "Goodbye (informal)", "answer": "Cu\u00eddate."}, {"question": "mouse", "answer": "el rat\u00f2n"}, {"question": "eagle", "answer": "la \u00e1guila"}]
