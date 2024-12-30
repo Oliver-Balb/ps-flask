@@ -8,3 +8,14 @@ flask --app flashcards.py --debug run
 python 
 import flashcards
 flashcards.app.url_map
+
+*** Flask WTF
+https://flask-wtf.readthedocs.io/
+
+Features
+* Integration with WTForms.
+* Secure Form with CSRF token.
+* Global CSRF protection.
+* reCAPTCHA support.
+* File upload that works with Flask-Uploads.
+* Internationalization using Flask-Babel.

@@ -32,7 +32,9 @@
             <a href="{{ url_for('add_card', index=index+1) }}">Add Card</a>
         </button>
         &nbsp; | &nbsp; 
-            <a href="{{ url_for('welcome') }}"> Home </a>
+        <a href="{{ url_for('remove_card', index=index) }}"> Remove Card </a>
+        &nbsp; | &nbsp; 
+        <a href="{{ url_for('welcome') }}"> Home </a>
         
     </p>
 </body>
